@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: rgba(0, 255, 255, 0.696);
+}
+
+.sub-menu {
+    /* padding: 30px; */
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.grid {
+    padding-top: 58px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.col {
+    border-radius: 8px;
+    height: 300px;
+    background-color: red;
+    padding-top: 10px;
+    margin-top: 10px;
+    box-shadow: 10px 10px 10px rgba(160, 217, 225, 0.733);
+}
+
+
+li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    float: left;
+}
